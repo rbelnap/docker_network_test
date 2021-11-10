@@ -3,8 +3,8 @@ version: "3.5"
 services:
   c1:
     networks:
-      external-net:
       default:
+      external-net:
     image: makocchi/alpine-dig
     command: top
 
